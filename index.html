@@ -2,39 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Amit Burstein - Developer</title>
-  <meta name="author" content="Amit Burstein">
-  <meta name="copyright" content="Amit Burstein">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta name="description" content="Hi, my name is Amit Burstein.">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600">
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <title>Amit Burstein - Developer</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   <style>
     body {
-      margin-top: 100px;
-      margin-bottom: 50px;
+      margin: 100px 0 0 0;
+      padding: 0 24px;
     }
 
     h1, h2 {
-      font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+      font-family: 'Open Sans', 'Arial', sans-serif;
     }
 
     #intro {
-      max-width: 640px;
       margin: 0 auto;
+      max-width: 640px;
       text-align: center;
     }
 
     #intro-text {
+      color: #83b81a;
       font-size: 48px;
       font-weight: 300;
-      color: #83b81a;
     }
 
     #intro-description {
+      color: #6a737b;
       font-size: 21px;
       font-weight: 400;
-      color: #6a737b;
+    }
+
+    #google {
+      font-weight: 600;
+    }
+
+    .google-blue {
+      color: #4285f4;
+    }
+
+    .google-red {
+      color: #ea4335;
+    }
+
+    .google-yellow {
+      color: #fbbc05;
+    }
+
+    .google-green {
+      color: #34a853;
     }
 
     #social {
@@ -48,7 +67,7 @@
 
     #social a {
       color: #2c3e50;
-      transition: color 0.5s ease;
+      transition: color .3s ease;
     }
 
     #social-github:hover {
@@ -75,7 +94,10 @@
 <body>
   <section id="intro">
     <h1 id="intro-text">Hi, my name is Amit Burstein.</h1>
-    <h2 id="intro-description">I'm a software engineer at Google. I love to code, listen to and write music, and learn new, exciting things.</h2>
+    <h2 id="intro-description">
+      I'm a software engineer at
+      <span id="google"><span class="google-blue">G</span><span class="google-red">o</span><span class="google-yellow">o</span><span class="google-blue">g</span><span class="google-green">l</span><span class="google-red">e</span></span>.
+      I love to code, listen to and write music, and learn new, exciting things.</h2>
     <div id="social">
       <a id="social-github" href="https://github.com/amitburst"><i class="ion-social-github"></i></a>
       <a id="social-linkedin" href="https://www.linkedin.com/in/amitburst"><i class="ion-social-linkedin"></i></a>
