@@ -15,8 +15,16 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   <style>
+    html, body {
+      height: 100%;
+    }
+
     body {
-      margin: 100px 0 0 0;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
       padding: 0 24px;
     }
 
@@ -24,93 +32,75 @@
       font-family: 'Open Sans', 'Arial', sans-serif;
     }
 
-    #intro {
-      margin: 0 auto;
+    .intro {
       max-width: 640px;
       text-align: center;
     }
 
-    #intro-text {
-      color: #83b81a;
+    .intro-text {
+      color: #73a117;
       font-size: 48px;
       font-weight: 300;
     }
 
-    #intro-description {
+    .intro-description {
       color: #6a737b;
       font-size: 21px;
       font-weight: 400;
     }
 
-    #google {
-      font-weight: 600;
+    .google {
+      text-decoration: underline #4285f4;
     }
 
-    .google-blue {
-      color: #4285f4;
-    }
-
-    .google-red {
-      color: #ea4335;
-    }
-
-    .google-yellow {
-      color: #fbbc05;
-    }
-
-    .google-green {
-      color: #34a853;
-    }
-
-    #social {
+    .social-buttons {
       margin-top: 40px;
     }
 
-    #social i {
+    .social-buttons i {
       font-size: 32px;
       margin: 15px;
     }
 
-    #social a {
+    .social-buttons a {
       color: #2c3e50;
-      transition: color .3s ease;
     }
 
-    #social-github:hover {
+    .social-github:hover {
       color: #333;
     }
 
-    #social-linkedin:hover {
+    .social-linkedin:hover {
       color: #0976b4;
     }
 
-    #social-twitter:hover {
+    .social-twitter:hover {
       color: #55acee;
     }
 
-    #social-instagram:hover {
+    .social-instagram:hover {
       color: #3f729b;
     }
 
-    #social-email:hover {
+    .social-email:hover {
       color: #dd4b39;
     }
   </style>
 </head>
 <body>
-  <section id="intro">
-    <h1 id="intro-text">Hi, my name is Amit Burstein.</h1>
-    <h2 id="intro-description">
-      I'm a software engineer at
-      <span id="google"><span class="google-blue">G</span><span class="google-red">o</span><span class="google-yellow">o</span><span class="google-blue">g</span><span class="google-green">l</span><span class="google-red">e</span></span>.
-      I love to code, listen to and write music, and learn new, exciting things.</h2>
-    <div id="social">
-      <a id="social-github" href="https://github.com/amitburst"><i class="ion-social-github"></i></a>
-      <a id="social-linkedin" href="https://www.linkedin.com/in/amitburst"><i class="ion-social-linkedin"></i></a>
-      <a id="social-twitter" href="https://twitter.com/amitburst"><i class="ion-social-twitter"></i></a>
-      <a id="social-instagram" href="https://instagram.com/amitburst"><i class="ion-social-instagram"></i></a>
-      <a id="social-email" href="mailto:amit.burstein@gmail.com"><i class="ion-paper-airplane"></i></a>
-    </div>
+  <section class="intro" role="main">
+    <h1 class="intro-text">Hi, my name is Amit Burstein.</h1>
+    <h2 class="intro-description">
+      I'm a software engineer at <span class="google">Google</span>.
+      I love to code, listen to and write music, and learn new, exciting things.
+    </h2>
   </section>
+  <section class="social-buttons" aria-label="Social buttons">
+    <a class="social-github" href="https://github.com/amitburst" aria-label="GitHub"><i class="ion-social-github"></i></a>
+    <a class="social-linkedin" href="https://www.linkedin.com/in/amitburst" aria-label="LinkedIn"><i class="ion-social-linkedin"></i></a>
+    <a class="social-twitter" href="https://twitter.com/amitburst" aria-label="Twitter"><i class="ion-social-twitter"></i></a>
+    <a class="social-instagram" href="https://instagram.com/amitburst" aria-label="Instagram"><i class="ion-social-instagram"></i></a>
+    <a class="social-email" href="mailto:amit.burstein@gmail.com" aria-label="Email"><i class="ion-paper-airplane"></i></a>
+  </div>
 </body>
 </html>
