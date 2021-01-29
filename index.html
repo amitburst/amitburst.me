@@ -7,16 +7,8 @@
   <meta name="description" content="I'm a software engineer at Google. I love to code, listen to and write music, and learn new, exciting things.">
   <title>Amit Burstein - Software Engineer</title>
   <link href="favicon.png" rel="icon">
-  <script async src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92593179-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-92593179-1');
-  </script>
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap&text=ABGHIacdefghilmnorstuvwx%20.%2C%27" rel="stylesheet">
   <style>
     html, body {
       height: 100%;
@@ -32,7 +24,7 @@
     }
 
     h1, h2 {
-      font-family: 'Open Sans', 'Arial', sans-serif;
+      font-family: 'Open Sans', sans-serif;
     }
 
     .intro {
@@ -57,37 +49,59 @@
       -webkit-text-decoration: underline #4285f4;
     }
 
-    .social-buttons {
-      margin-top: 40px;
+    .social-links {
+      margin-top: 32px;
     }
 
-    .social-buttons ion-icon {
-      font-size: 32px;
-      margin: 15px;
+    .social-links a {
+      display: inline-block;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 32px;
+      filter: invert(17%) sepia(15%) saturate(1463%) hue-rotate(169deg) brightness(104%) contrast(84%);
+      height: 32px;
+      padding: 16px;
+      width: 32px;
     }
 
-    .social-buttons a {
-      color: #2c3e50;
+    .social-github {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cGF0aCBkPSJNMjU2IDMyQzEzMi4zIDMyIDMyIDEzNC45IDMyIDI2MS43YzAgMTAxLjUgNjQuMiAxODcuNSAxNTMuMiAyMTcuOWExNy41NiAxNy41NiAwIDAwMy44LjRjOC4zIDAgMTEuNS02LjEgMTEuNS0xMS40IDAtNS41LS4yLTE5LjktLjMtMzkuMWExMDIuNCAxMDIuNCAwIDAxLTIyLjYgMi43Yy00My4xIDAtNTIuOS0zMy41LTUyLjktMzMuNS0xMC4yLTI2LjUtMjQuOS0zMy42LTI0LjktMzMuNi0xOS41LTEzLjctLjEtMTQuMSAxLjQtMTQuMWguMWMyMi41IDIgMzQuMyAyMy44IDM0LjMgMjMuOCAxMS4yIDE5LjYgMjYuMiAyNS4xIDM5LjYgMjUuMWE2MyA2MyAwIDAwMjUuNi02YzItMTQuOCA3LjgtMjQuOSAxNC4yLTMwLjctNDkuNy01LjgtMTAyLTI1LjUtMTAyLTExMy41IDAtMjUuMSA4LjctNDUuNiAyMy02MS42LTIuMy01LjgtMTAtMjkuMiAyLjItNjAuOGExOC42NCAxOC42NCAwIDAxNS0uNWM4LjEgMCAyNi40IDMuMSA1Ni42IDI0LjFhMjA4LjIxIDIwOC4yMSAwIDAxMTEyLjIgMGMzMC4yLTIxIDQ4LjUtMjQuMSA1Ni42LTI0LjFhMTguNjQgMTguNjQgMCAwMTUgLjVjMTIuMiAzMS42IDQuNSA1NSAyLjIgNjAuOCAxNC4zIDE2LjEgMjMgMzYuNiAyMyA2MS42IDAgODguMi01Mi40IDEwNy42LTEwMi4zIDExMy4zIDggNy4xIDE1LjIgMjEuMSAxNS4yIDQyLjUgMCAzMC43LS4zIDU1LjUtLjMgNjMgMCA1LjQgMy4xIDExLjUgMTEuNCAxMS41YTE5LjM1IDE5LjM1IDAgMDA0LS40QzQxNS45IDQ0OS4yIDQ4MCAzNjMuMSA0ODAgMjYxLjcgNDgwIDEzNC45IDM3OS43IDMyIDI1NiAzMnoiLz48L3N2Zz4=);
+    }
+
+    .social-linkedin {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cGF0aCBkPSJNNDQ0LjE3IDMySDcwLjI4QzQ5Ljg1IDMyIDMyIDQ2LjcgMzIgNjYuODl2Mzc0LjcyQzMyIDQ2MS45MSA0OS44NSA0ODAgNzAuMjggNDgwaDM3My43OGMyMC41NCAwIDM1Ljk0LTE4LjIxIDM1Ljk0LTM4LjM5VjY2Ljg5QzQ4MC4xMiA0Ni43IDQ2NC42IDMyIDQ0NC4xNyAzMnptLTI3My4zIDM3My40M2gtNjQuMThWMjA1Ljg4aDY0LjE4ek0xNDEgMTc1LjU0aC0uNDZjLTIwLjU0IDAtMzMuODQtMTUuMjktMzMuODQtMzQuNDMgMC0xOS40OSAxMy42NS0zNC40MiAzNC42NS0zNC40MnMzMy44NSAxNC44MiAzNC4zMSAzNC40MmMtLjAxIDE5LjE0LTEzLjMxIDM0LjQzLTM0LjY2IDM0LjQzem0yNjQuNDMgMjI5Ljg5aC02NC4xOFYyOTYuMzJjMC0yNi4xNC05LjM0LTQ0LTMyLjU2LTQ0LTE3Ljc0IDAtMjguMjQgMTItMzIuOTEgMjMuNjktMS43NSA0LjItMi4yMiA5LjkyLTIuMjIgMTUuNzZ2MTEzLjY2aC02NC4xOFYyMDUuODhoNjQuMTh2MjcuNzdjOS4zNC0xMy4zIDIzLjkzLTMyLjQ0IDU3Ljg4LTMyLjQ0IDQyLjEzIDAgNzQgMjcuNzcgNzQgODcuNjR6Ii8+PC9zdmc+);
+    }
+
+    .social-twitter {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cGF0aCBkPSJNNDk2IDEwOS41YTIwMS44IDIwMS44IDAgMDEtNTYuNTUgMTUuMyA5Ny41MSA5Ny41MSAwIDAwNDMuMzMtNTMuNiAxOTcuNzQgMTk3Ljc0IDAgMDEtNjIuNTYgMjMuNUE5OS4xNCA5OS4xNCAwIDAwMzQ4LjMxIDY0Yy01NC40MiAwLTk4LjQ2IDQzLjQtOTguNDYgOTYuOWE5My4yMSA5My4yMSAwIDAwMi41NCAyMi4xIDI4MC43IDI4MC43IDAgMDEtMjAzLTEwMS4zQTk1LjY5IDk1LjY5IDAgMDAzNiAxMzAuNGMwIDMzLjYgMTcuNTMgNjMuMyA0NCA4MC43QTk3LjUgOTcuNSAwIDAxMzUuMjIgMTk5djEuMmMwIDQ3IDM0IDg2LjEgNzkgOTVhMTAwLjc2IDEwMC43NiAwIDAxLTI1Ljk0IDMuNCA5NC4zOCA5NC4zOCAwIDAxLTE4LjUxLTEuOGMxMi41MSAzOC41IDQ4LjkyIDY2LjUgOTIuMDUgNjcuM0ExOTkuNTkgMTk5LjU5IDAgMDEzOS41IDQwNS42YTIwMyAyMDMgMCAwMS0yMy41LTEuNEEyNzguNjggMjc4LjY4IDAgMDAxNjYuNzQgNDQ4YzE4MS4zNiAwIDI4MC40NC0xNDcuNyAyODAuNDQtMjc1LjggMC00LjItLjExLTguNC0uMzEtMTIuNUExOTguNDggMTk4LjQ4IDAgMDA0OTYgMTA5LjV6Ii8+PC9zdmc+);
+    }
+
+    .social-instagram {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cGF0aCBkPSJNMzQ5LjMzIDY5LjMzYTkzLjYyIDkzLjYyIDAgMDE5My4zNCA5My4zNHYxODYuNjZhOTMuNjIgOTMuNjIgMCAwMS05My4zNCA5My4zNEgxNjIuNjdhOTMuNjIgOTMuNjIgMCAwMS05My4zNC05My4zNFYxNjIuNjdhOTMuNjIgOTMuNjIgMCAwMTkzLjM0LTkzLjM0aDE4Ni42Nm0wLTM3LjMzSDE2Mi42N0M5MC44IDMyIDMyIDkwLjggMzIgMTYyLjY3djE4Ni42NkMzMiA0MjEuMiA5MC44IDQ4MCAxNjIuNjcgNDgwaDE4Ni42NkM0MjEuMiA0ODAgNDgwIDQyMS4yIDQ4MCAzNDkuMzNWMTYyLjY3QzQ4MCA5MC44IDQyMS4yIDMyIDM0OS4zMyAzMnoiLz48cGF0aCBkPSJNMzc3LjMzIDE2Mi42N2EyOCAyOCAwIDExMjgtMjggMjcuOTQgMjcuOTQgMCAwMS0yOCAyOHpNMjU2IDE4MS4zM0E3NC42NyA3NC42NyAwIDExMTgxLjMzIDI1NiA3NC43NSA3NC43NSAwIDAxMjU2IDE4MS4zM20wLTM3LjMzYTExMiAxMTIgMCAxMDExMiAxMTIgMTEyIDExMiAwIDAwLTExMi0xMTJ6Ii8+PC9zdmc+);
+    }
+
+    .social-email {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIj48cGF0aCBkPSJNNDczIDM5LjA1YTI0IDI0IDAgMDAtMjUuNS01LjQ2TDQ3LjQ3IDE4NWgtLjA4YTI0IDI0IDAgMDAxIDQ1LjE2bC40MS4xMyAxMzcuMyA1OC42M2ExNiAxNiAwIDAwMTUuNTQtMy41OUw0MjIgODBhNy4wNyA3LjA3IDAgMDExMCAxMEwyMjYuNjYgMzEwLjI2YTE2IDE2IDAgMDAtMy41OSAxNS41NGw1OC42NSAxMzcuMzhjLjA2LjIuMTIuMzguMTkuNTcgMy4yIDkuMjcgMTEuMyAxNS44MSAyMS4wOSAxNi4yNWgxYTI0LjYzIDI0LjYzIDAgMDAyMy0xNS40Nkw0NzguMzkgNjQuNjJBMjQgMjQgMCAwMDQ3MyAzOS4wNXoiLz48L3N2Zz4=);
     }
 
     .social-github:hover {
-      color: #333;
+      filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(88deg) brightness(99%) contrast(87%);
     }
 
     .social-linkedin:hover {
-      color: #0976b4;
+      filter: invert(28%) sepia(89%) saturate(1374%) hue-rotate(178deg) brightness(97%) contrast(93%);
     }
 
     .social-twitter:hover {
-      color: #55acee;
+      filter: invert(55%) sepia(77%) saturate(543%) hue-rotate(177deg) brightness(102%) contrast(87%);
     }
 
     .social-instagram:hover {
-      color: #3f729b;
+      filter: invert(46%) sepia(37%) saturate(658%) hue-rotate(164deg) brightness(82%) contrast(89%);
     }
 
     .social-email:hover {
-      color: #dd4b39;
+      filter: invert(43%) sepia(81%) saturate(1360%) hue-rotate(333deg) brightness(85%) contrast(105%);
     }
   </style>
 </head>
@@ -99,12 +113,12 @@
       I love to code, listen to and write music, and learn new, exciting things.
     </h2>
   </section>
-  <section class="social-buttons" aria-label="Social buttons">
-    <a class="social-github" href="https://github.com/amitburst" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
-    <a class="social-linkedin" href="https://www.linkedin.com/in/amitburst" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
-    <a class="social-twitter" href="https://twitter.com/amitburst" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
-    <a class="social-instagram" href="https://instagram.com/amitburst" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
-    <a class="social-email" href="mailto:amit.burstein@gmail.com" aria-label="Email"><ion-icon name="paper-plane"></ion-icon></a>
+  <section class="social-links" aria-label="Social links">
+    <a class="social-github" href="https://github.com/amitburst" target="_blank" aria-label="View GitHub, opens new window"></a>
+    <a class="social-linkedin" href="https://www.linkedin.com/in/amitburst" target="_blank" aria-label="View LinkedIn, opens new window"></a>
+    <a class="social-twitter" href="https://twitter.com/amitburst" target="_blank" aria-label="View Twitter, opens new window"></a>
+    <a class="social-instagram" href="https://instagram.com/amitburst" target="_blank" aria-label="View Instagram, opens new window"></a>
+    <a class="social-email" href="mailto:amit.burstein@gmail.com" aria-label="Send email"></a>
   </div>
 </body>
 </html>
